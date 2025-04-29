@@ -1,0 +1,278 @@
+@font-face 
+{
+    font-family:"korolev-rounded";
+    src:url("https://use.typekit.net/af/f6544b/00000000000000007735df44/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") 
+    format("woff2"),url("https://use.typekit.net/af/f6544b/00000000000000007735df44/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") 
+    format("woff"),url("https://use.typekit.net/af/f6544b/00000000000000007735df44/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") 
+    format("opentype");
+    font-display:auto;font-style:normal;font-stretch:normal;
+}
+
+
+@font-face 
+{
+    font-family:"korolev";
+    src:url("https://use.typekit.net/af/ade006/00000000000000007735e8d0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") 
+    format("woff2"),url("https://use.typekit.net/af/ade006/00000000000000007735e8d0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") 
+    format("woff"),url("https://use.typekit.net/af/ade006/00000000000000007735e8d0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") 
+    format("opentype");
+    font-display:auto;font-style:normal;font-weight:100;font-stretch:normal;
+}
+
+
+@font-face 
+{
+    font-family:"korolev";
+    src:url("https://use.typekit.net/af/83f011/00000000000000007735e8d8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
+    format("woff2"),url("https://use.typekit.net/af/83f011/00000000000000007735e8d8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") 
+    format("woff"),url("https://use.typekit.net/af/83f011/00000000000000007735e8d8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3")
+    format("opentype");
+    font-display:auto;font-style:normal;font: weight 200px;;font-stretch:normal;
+}
+
+@font-face 
+{
+    font-family:"korolev";
+    src:url("https://use.typekit.net/af/946d39/00000000000000007735e8d4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+    format("woff2"),url("https://use.typekit.net/af/946d39/00000000000000007735e8d4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+    format("woff"),url("https://use.typekit.net/af/946d39/00000000000000007735e8d4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") 
+    format("opentype");
+    font-display:auto;font-style:normal;font-weight:100;font-stretch:normal;
+}
+
+
+
+body {
+    font-family: "korolev";
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-color: #00D2C6;
+    width: 100%;
+    height: 113px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border : solid 1px white;
+}
+
+.logo{
+    width: 85px;
+    padding-left: 27px;
+    padding-top: 17px;
+}
+
+.list ul li{
+    font-weight: normal;
+    font-size: 20px;
+    color: white; 
+    text-decoration: none;
+}
+
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    position: absolute;
+    top: 30px;
+    left: 620px;
+    cursor: pointer;
+}
+
+.list ul li:hover{
+    text-decoration: underline;
+} 
+
+.social-media{
+    width: 269px;
+    height: 28px;
+    margin-top: 1px;
+    padding: 1px;
+    float: right;
+    cursor: pointer;
+    margin-right: 50px;
+    
+}
+
+.image-one img{
+    width: 101%;
+}
+
+.section{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 115px;
+}
+
+section h1{
+    position: absolute;
+    top: 165px;
+    left: 70px;
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 74px;
+    color: rgb(255, 255, 255);
+    font-family:"korolev-rounded";
+}
+
+.section button{
+    position: absolute;
+    top: 370px;
+    left: 80px;
+    width: 175px;
+    height: 45px;
+    border-radius: 55px;
+    background: none;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.article{
+    margin-top: 100px;
+    position: relative;
+    font-family: "korolev";
+}
+
+.second-text {
+    background-color: #086b30ac;
+    color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 180px;
+    left: 650px;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 160px;
+}
+
+.second-text h1{
+    position: absolute;
+    top: -10px;
+    left: 190px;
+    font-size: 30px;
+}
+
+.second-text h3{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    font-size: 15px;
+}
+
+.image-two img{
+    width: 101%;
+}
+
+.article button{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: white;
+    background: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.aside{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside img{
+    width: 101%;
+    margin-top: -10px;
+}
+
+.third-text{
+    width: 600px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    background-color: #086b30ac;
+    color: white;
+}
+
+.third-text h1{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.third-text h5{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.aside button{
+    width: 200px;
+    height: 40px;
+    background: none;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    border-color: white;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer, .aside{
+    margin: 0%;
+}
+
+.footer{
+    background-color: #3E3E3E;
+    width: 101%;
+    height: 125px;
+    padding-top: 10px;
+    color: white;
+}
+
+.footer ul{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer ul li{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.footer ul li:hover{
+    text-decoration: underline;
+}
+
+.copywrite{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
